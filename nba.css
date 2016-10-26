@@ -1,0 +1,301 @@
+
+#site{
+                margin-top: 5px;
+                margin-bottom: 35px;
+                margin-left: 35px;
+                margin-right: 35px;
+                     }
+                nav {
+                margin: 0 auto;
+                width: 1260px
+                 }
+
+                ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+                    }
+
+                li {
+                float: left;
+                border-right:1px solid #FFF;
+                    }
+
+                li:last-child {
+                border-right: none;
+                              }
+
+                li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                     }
+
+
+                .active {
+                background-color: #0D2B56;
+                        }    
+                h1{
+                background-color: orange;
+                font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+                font-size: 40px;
+                  }
+                brady{
+                float: right;
+                  }
+                login{
+                float:right; list-style-type:none;
+                     }
+                body{
+                text-align:center;
+                background-color:grey;
+                    }
+                header{
+                background:#FFF;
+                width: 1000px
+                border: 8px;
+                border-radius: 8px;
+                
+                      }
+                
+					   <!--table
+	{mso-displayed-decimal-separator:"\,";
+	mso-displayed-thousand-separator:"\.";}
+.xl1512732
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6512732
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border:1.0pt solid #AAAAAA;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6612732
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid #AAAAAA;
+	border-bottom:1.0pt solid #AAAAAA;
+	border-left:1.0pt solid #AAAAAA;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6712732
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid #AAAAAA;
+	border-bottom:none;
+	border-left:1.0pt solid #AAAAAA;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6812732
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border:1.0pt solid #AAAAAA;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6912732
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid #AAAAAA;
+	border-bottom:1.0pt solid #AAAAAA;
+	border-left:1.0pt solid #AAAAAA;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl7012732
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border:1.0pt solid #AAAAAA;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl7112732
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid #AAAAAA;
+	border-bottom:1.0pt solid #AAAAAA;
+	border-left:1.0pt solid #AAAAAA;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl7212732
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid #AAAAAA;
+	border-bottom:none;
+	border-left:1.0pt solid #AAAAAA;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl7312732
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+	-->
+	
+	#parg{
+		margin:30px;
+		padding:20px;
+	}
+	
+	.times{
+		margin: 40px;
+		font-family:arial;
+	}
+	
+	#DivDestino {
+		width:320px; 
+		height:320px;
+		border:0.5px solid #aaaaaa;
+		
+	}
+	
+	#textoIni{
+		margin:0 150px 0 150px;
+        font-family: cursive, sans-serif;
+		text-align:justify;
+	}
+
+    .menutopo{
+        font-size: 30px;
+    }
+		
+		
+	

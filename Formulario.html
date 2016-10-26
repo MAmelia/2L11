@@ -1,0 +1,206 @@
+
+<!doctype html>
+<html> 
+    <head> 
+    <meta charset="utf-8"> 
+         <link rel="stylesheet" type="text/css" href="nba.css">
+         <script>
+            <!--
+                var tx = new Array (
+                "NBA !!!",
+                "Welcome to the NBA");
+                var txcount=2;
+                var i=1;
+                var wo=0;
+                var ud=1;
+                function animatetitle()
+                                                {
+                window.document.title=tx[wo].substr(0, i)+"_";
+                if (ud==0) i--;
+                if (ud==1) i++;
+                if (i==-1) {ud=1;i=0;wo++;wo=wo%txcount;}
+                if (i==tx[wo].length+10) {ud=0;i=tx[wo].length;}
+                // if (window.document.title.length < 20 ) window.document.title=window.document.title+"-";
+                // if (window.document.title.length == 20 ) window.document.title=window.document.title+"]";
+                // if (window.document.title.length == 21 ) setTimeout("window.document.title='Animierte Seitentitel '; ",1000);
+                parent.window.document.title=tx[wo].substr(0, i)+"_";
+                setTimeout("animatetitle()",200);
+                                                }
+                animatetitle();
+            // -->
+        </script>
+        
+        <style>
+form {
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    max-width: 500px;
+}
+
+#contato {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #160267;
+    text-shadow: 5px 5px 5px #5C5C5C;
+	background:#FFFFFF
+}
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+    input:hover, textarea:hover, input:focus, textarea:focus {
+        border-color: #000066;
+        box-shadow: 5px 0px 9px #FFFF00;
+        background-color: #EBF8C1;
+        color: black;
+        font-weight: bold;
+    }
+	
+	#nba{
+		background-color: #FFFFFF;
+		box-shadow: 5px 0px 9px#000000;
+		
+		
+		
+
+.submit input {
+    background-color: #233EA3;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#formulario{
+	text-align:left
+	
+}
+
+</style> 
+        
+    </head>
+	<body>
+  <body>
+<div id="site"> 
+<div id="topo">        
+                <a id="top"></a>
+            <center>
+                <img src="344223.jpg" width="1260" height="350" >
+            </center>
+</div>
+        <nav id="nav">
+            <ul>
+                <li><a href="nbaa.html">Página Inicial</a></li>
+                <li><a href="hall.html">Hall da Fama</a></li>
+                <li><a href="times.html">Times</a></li>
+                <li><a href="Formulario.html">Formulário</a></li>
+                <li><a href="null"></a></li>
+            </ul>
+        </nav>
+            <br>
+            <section class="corpo">
+            <center>
+                <header>
+                    <br>
+                    <h1><font color="#FFF">Formulário</font></h1>
+      <form name="meu_form">
+        <h1 id="contato">Entre em contato</h1>
+        
+        <div id="formulario">
+        <p class="nome">
+            <input type="text" id="nomeid" placeholder="Nome" required="required" name="nome" />
+            <label for="nome">Nome</label>
+        </p>
+        <p class="fone">
+            <input type="text" id="foneid" placeholder="(xx)xxxxx-xxxx" name="fone" />
+            <label for="fone">Fone</label>
+        </p>
+        <p>
+            <input type="email" id="emailid" placeholder="email@mail.com" name="email" />
+            <label for="email">Email</label>
+        </p>
+        <p>
+            <input type="email" id="emailid" placeholder="Descreva em poucas palavras" name="email" />
+            <label for="email">Assunto</label>
+        </p>
+        <p>
+            <textarea placeholder="Deixe sua opnião" rows="10" cols="60" wrap="virtual"></textarea>
+        </p>
+        <p class="submit">
+        </div>
+            <input type="submit" value="Enviar" >
+       		<input type="reset" value="Limpar" >
+        </p>
+  </form><br><br><br>
+        
+        <input type="image" src="nba.png" id="nba" width="300" height="300" draggable="true" ondragstart="drag(event)" 		autofocus/><br><br>
+        
+        <div id="DivDestino" ondrop="drop(event)" ondragover="allowDrop(event)"></div><br><br><Br><br><br><br>
+       
+        <script>
+			function allowDrop(ev)
+			{
+				ev.preventDefault();
+			}
+ 
+			function drag(ev)
+			{
+				ev.dataTransfer.setData("Text",ev.target.id);
+			}
+ 
+			function drop(ev)
+			{
+				var data = ev.dataTransfer.getData("Text");
+				ev.target.appendChild(document.getElementById(data));
+				ev.preventDefault();
+			}
+		</script>
+        
+		</p>
+       </form>
+                    </header>
+                <br>
+                <header>
+            </center>
+            </section>
+            <hr>
+            <footer>
+        <center>
+<div class="creditos">
+            <p>..::Developers João Pedro Rodrigues / Matheus Alves Cassemiro::..</p>
+</div>
+        </center>  
+	</body>
+</html>
+	
+
+	
+
+
+
+
+
+
