@@ -2,13 +2,13 @@
 
 #Projeto do Semestre
 
-Dupla:
+Dupla: Matheus Ferreira Gagliotti
 
-Tema do site:
+Tema do site: Futebol
 
-Público-alvo:
+Público-alvo: Jovens e adultos interessados em compartilhar assuntos sobre futebol.
 
-Funcionalidades:
+Funcionalidades: Divulgar o campeonato brasileiro, e outros assuntos relacionados a futebol. 
 
 Mapa do Site:
 
