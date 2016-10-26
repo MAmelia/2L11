@@ -2,13 +2,13 @@
 
 #Projeto do Semestre
 
-Dupla:
+Dupla: Paulo Francisco Chen e eu mesmo =)
 
-Tema do site:
+Tema do site: Humor e Entretenimento  
 
-Público-alvo:
+Público-alvo: Adolescentes e Adultos
 
-Funcionalidades:
+Funcionalidades: apresentar notícias, vídeos, imagens, gifs de cunho humoristico.
 
 Mapa do Site:
 
