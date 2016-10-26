@@ -2,13 +2,13 @@
 
 #Projeto do Semestre
 
-Dupla:
+Nome:Bruno Barros Cardoso - 31603947
 
 Tema do site:
 
-Público-alvo:
+Público-alvo: 
 
-Funcionalidades:
+Funcionalidades:Aprende
 
 Mapa do Site:
 
