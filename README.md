@@ -13,3 +13,9 @@ Funcionalidades: Conhecer os filmes mais premiados da história do Oscar, aprese
 Mapa do Site: 
 
 Wireframe: 
+  Desktop.:
+      Index.....: https://wireframe.cc/mHU5C1
+      Slideshow.: https://wireframe.cc/koEdv1
+  Mobile..:
+      Index.....: https://wireframe.cc/Xx7wB6
+      Slideshow.: https://wireframe.cc/7zXPqb
