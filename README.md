@@ -10,7 +10,7 @@ Público-alvo: Cinéfilos e curiosos pela história da premiação
 
 Funcionalidades: Conhecer os filmes mais premiados da história do Oscar, apresentando sinopse, pôster, premiações e um histórico da própria premiação
 
-Mapa do Site: 
+Mapa do Site: https://creately.com/diagram/iurjk9j51/IUbY3YdtRlqeg2wnH05Y7olaA%3D
 
 Wireframe: 
   Desktop.:
