@@ -6,7 +6,7 @@
 
 body{ 
     width: 100%;
-    background: url(vermelho.jpg) fixed;
+    background-image: url(vermelho.jpg) fixed;
 }
 
 header{
