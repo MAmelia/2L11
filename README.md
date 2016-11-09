@@ -4,11 +4,11 @@
 
 Nome:Bruno Barros Cardoso - 31603947
 
-Tema do site:
+Tema do site:Descubra o Canadá
 
-Público-alvo: 
+Público-alvo: Interessados em aprender sobre o Canadá
 
-Funcionalidades:Aprende
+Funcionalidades:Visualização de fotos das províncias e cidades do Canadá.
 
 Mapa do Site:
 
