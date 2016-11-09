@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+body{ 
+    width: 100%;
+    background: url(vermelho.jpg) fixed;
+}
+
+header{
+    width: 100%;
+    margin: auto auto 0 ;
+    text-align: center;
+    background-color: black;
+    float: left;
+    
+}
+
+.contato{
+    width: 30%;
+    margin: 0 auto 20px;
+    color: black;
+}
+
+input, textarea {
+    color: black
+}
+
+.contato form{
+    width: 100%;
+    float: left;
+    color: black;
+}
+fieldset{
+    width: 100%;
+    margin: 0 auto;
+    padding: auto auto 20px;
+}
+
+.responsive{
+    width: 80%;
+    margin: 0 auto; 
+}
+
+#imagem{
+    height: 100px;
+    float: left;
+}
+
+.logo{
+    float: left;   
+}
+
+#imagem{
+    border-left: 1px black solid;
+}
+
+.dropbtn {
+    width: 75%;
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    height: 100px;
+    border-right: 1px solid #333;
+    border-left: 1px solid #333;
+}
+
+.dropdown {
+    float: right;
+    position: relative;
+    z-index: 99;
+    height: 100px;
+    width: 30%;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    width: 75%;
+    box-shadow: 0px 4px 16px 0px rgba(2,0,0,0.2);
+    list-style-type: none;
+    text-align:center;
+    margin: auto;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+    transition: all linear 0.3s;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: darkslategray;
+    transition: all linear 0.4s;
+}
+
+.banner{
+    background: url(plateia.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    box-shadow: inset #000 0px 0px 10px 0px;
+}
+
+#legenda{
+    width: 20%;
+    margin: 250px 200px auto;
+    background-color: black;
+    text-align: center;
+    float: right;
+    padding: 5px 5px 5px 0;
+    opacity: 0.7;
+    
+}
+
+.texto{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    line-height: 23px;
+}
+
+.texto h3{
+    text-align: center;
+}
+
+.dicaprio{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 200px;
+}
+
+.dicaprio img{
+    border-radius: 200px;
+}
+
+footer{
+    width: 100%;
+    background: black;
+    text-align: center;
+    padding: 10px 0;
+    float: left;    
+}
+.slides{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.mySlides{
+    width: 60%;
+    margin: 0 auto;
+}
+
+h3{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mySlides img{
+    width: 40%;
+    float: left; 
+}
+
+
+.slides h2{
+    text-align: center;
+    margin: 20px 0 10px;
+    
+}
+.slides h4{
+    text-align: center;
+    margin:  0 0 20px;
+    
+}
+.slideshow{
+    width: 100%;
+    float:left;
+    margin: 20px 0 ;
+    
+}
+
+.sinopse {
+    width: 58%;
+    text-align: justify;
+    float: right;
+}
+.botoes{
+    position: absolute;
+    width: 80%;
+    
+}
+.bBtn{
+    width: 20%;
+    float: left
+}
+
+.fBtn{
+    width: 20%;
+    float: right
+}
+
+li{
+    margin: 0 0 0 15px;
+}
+
+.titulo{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.titulo h1{
+    text-align: center;
+    margin: 20px 0 10px;
+    
+}
+.titulo h4{
+    text-align: center;
+    margin:  0 0 20px;
+    
+}
+
+.enunciado{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.enunciado h4{
+    text-align: center;
+    margin: 20px 0 60px;
+    
+}
+
+.game {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.jogo td{
+    width: 30%;
+    padding: 10px 20px;
+}
+.jogo h4{
+    text-align: justify;
+}
+
+.game img{
+    width: 200px;
+    margin: 40px 20px;
+    cursor: move;
+    z-index: 99;
+    
+}
+
+.jogo p{
+    width: 200px;
+    height: 300px;
+    margin: 40px 20px;
+    border: 1px solid black;
+
+}
+
+.volta{
+    width: 200px;
+    height: 300px; 
+}
+
+.jogo h5{
+    text-align: justify;
+
+}
+
+table h1{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.form{
+    width: 100%;
+    margin: 0 auto;
+        
+}
+
+form{
+    width: 10%;
+    margin: auto;
+    text-align: center;
+        
+}
+
+input[type=button], [type=submit], [type=reset] {
+    color: black;
+    margin: 0 auto;
+}
