@@ -4,9 +4,9 @@
 
 Dupla:
 
-Tema do site:e-sport no Brasil
+Tema do site:e-sport no Brasil e no mundo.
 
-Público-alvo:para todos que possuí interesse em esportes eletronicos
+Público-alvo:para todos que possuí interesse em esportes eletrônicos.
 
 Funcionalidades:ser uma fonte de informação para usuários leigos que se interessam pelo assunto 
 
