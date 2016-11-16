@@ -2,14 +2,20 @@
 
 #Projeto do Semestre
 
-Dupla:
+Dupla: Marco Vallim - 31637280 e Hallan Oliveira - 31637981
 
-Tema do site:
+Tema do site: Oscar - Filmes mais premiados
 
-Público-alvo:
+Público-alvo: Cinéfilos e curiosos pela história da premiação
 
-Funcionalidades:
+Funcionalidades: Conhecer os filmes mais premiados da história do Oscar, apresentando sinopse, pôster, premiações e um histórico da própria premiação
 
-Mapa do Site:
+Mapa do Site: https://creately.com/diagram/iurjk9j51/IUbY3YdtRlqeg2wnH05Y7olaA%3D
 
-Wireframe:
+Wireframe: 
+  Desktop.:
+      Index.....: https://wireframe.cc/mHU5C1
+      Slideshow.: https://wireframe.cc/koEdv1
+  Mobile..:
+      Index.....: https://wireframe.cc/Xx7wB6
+      Slideshow.: https://wireframe.cc/7zXPqb
