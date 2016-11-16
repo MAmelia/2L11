@@ -1,0 +1,989 @@
+body{
+	background:url(imagens/background.jpg); /*inserção da imagem de fundo em todo o site*/
+	color:#f4e1e1; /*cor padrão para todas as fontes*/
+	font-family: "sans-serif", Helvetica, arial; /*definição da fonte geral incorporada do Google Fonts*/
+	font-size: 1.125em; /*tamanho da fonte*/
+	font-weight: 300; /*indica que a fonte está configurada como Open Sans Light*/
+	line-height: 1.2222222222em;/*altura da linha*/
+	text-align: left; /*alinhando o texto à esquerda*/
+	/*text-shadow:1px 1px 2px #660000; sombreamento para as fontes do site*/
+}
+.center{
+	margin: 0 auto;
+	max-width:1200px; /*largura máxima do layout*/
+	width: 90%; /*ajuste do layout à tela*/
+}
+/*.clearfix usado para adicionar um espaço vazio antes e depois dos elementos
+  evitando que os floats se aglomerem.
+*/
+.clearfix:before, .clearfix:after {
+    content: " "; 
+    display: table; 
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+/*fim do clearfix*/
+img, picture, video, embed {
+    max-width: 100%; /*define a largura máxima em até 100%*/
+}
+h1, h2{
+	color:#FE9380;
+	font-size: 3.333333333333333em;
+	font-weight: 800;
+	letter-spacing: -3px; /*espaçamento entre as letras*/
+	line-height: 60px;
+}
+h3{
+	font-size: 1.777777777777778em;
+	font-weight: 300;
+	letter-spacing: -2px; /*espaçamento entre as letras*/
+	line-height: 38px;
+}
+p{
+	font-weight: 300;/*modifica a força da fonte para light*/
+	letter-spacing: -1px; /*espaçamento entre as letras*/
+}
+a, a:link, a:visited{
+	color:#FE9380; /*cor dos links*/
+	font-weight:400; /*modifica a força da fonte para semi-bold*/
+	text-decoration:none; /*retira o sublinhado dos links*/
+}
+a:hover{
+	color:#000;
+	text-decoration:underline; /*inseri uma linha sob o link*/
+	text-shadow:none; /*retira a sombra da fonte*/
+}
+
+/*----------------------------------------------------------
+Seção HEADER - Topo do Site &lt;&lt;&lt;&lt;&lt;===========================
+----------------------------------------------------------*/
+header{
+	height:175px;
+	width:100%; /*1200px ÷ 1200px = 1 x 100 = 100%*/
+}
+/*
+=========================
+logotipo
+=========================
+*/
+	header h1 a{
+		background:url(imagens/logo-criar-site-responsivo.png) no-repeat; 
+		display:block; 
+		float:left; 
+		height:170px; 
+		text-indent:-9999; 
+		width:58.333333333333%; /* 700px ÷ 1200px = 0.58333333333333 x 100 = 58.333333333333%*/
+	}
+	
+/*
+=========================
+nav - menu de navegação
+=========================
+*/
+nav{
+	float:right;
+	margin-top:88px; 
+	text-align:center; 
+	width:41.6666666666667%; /* 500px ÷ 1200px = 0.416666666666667 x 100 = 41.6666666666667%*/
+}
+	nav ul{
+		list-style-type:none; 
+	}
+		nav li {
+			display: inline; 
+		}
+			nav ul li a{
+				margin-right: 7.5%; 
+			}
+				nav ul li:nth-child(5) a{
+					margin-right:0; 
+				}
+			nav a:link, nav a:visited{
+				color:#ccc;
+				font-size: 1.6em; /* 22px ÷ 18px = 1.2222222222em */
+				font-weight: 300;
+				letter-spacing: -0.0909090909em; /* -2px ÷ 22px = -0.0909090909em */
+				line-height: 1.18181818182em; /* 26px ÷ 22px = 1.18181818182em */
+				display:inline-block;
+			}
+			nav a.ativo:link, nav a:hover{
+				color:#fff;
+								
+			}
+/*----------------------------------------------------------
+Seção .CHAMADA &lt;&lt;&lt;&lt;&lt;========================================
+----------------------------------------------------------*/
+.chamada{
+	height:290px;
+	text-align:center;
+	width:100%; /*1200px ÷ 1200px = 1 x 100 = 100%*/
+}
+	h2 span{
+		font-size: 1em; /* 60px ÷ 60px = 1em */
+		font-weight: 300;
+		letter-spacing: -0.0333333333em; /* -2px ÷ 60px = 0.0333333333em */
+		line-height: 1em; /* 60px ÷ 60px = 1em */
+	}
+	.chamada h3 {
+		margin: 0 auto;
+		width:75%; /* 900px ÷ 1200px = 0.75 x 100 = 75%*/
+	}
+/*----------------------------------------------------------
+Seção .CONTAINER - Conteúdo com 3 colunas &lt;&lt;&lt;&lt;&lt;=============
+----------------------------------------------------------*/
+.container{
+	background:linear-gradient(#999392, #4f4b4b, #211f1f);
+	height: 417px;
+	padding:2.5%; /* 30px ÷ 1200px = 0.025 x 100 = 2.5%*/
+	width:95%; /* 1200px ÷ 1200px = 1 x 100 = 100% .:. 100% - 5.0% de padding (direita e esquerda) = 95%*/
+}
+/*Por causa do padding, a largura, width, do .container passou de 1.200px para 1.140px (95%)*/
+.desktop, .tablet, .mobile{
+	float:left;
+	position:relative;
+	text-align:center;
+	width:31.57894736842105%; /* 360px ÷ 1140px = 0.3157894736842105 x 100 = 31.57894736842105%*/
+}
+.desktop, .tablet{
+	margin-right: 2.631578947368421%; /* 30px ÷ 1140px =  0.02631578947368421 x 100 = 2.631578947368421%*/
+}
+.mobile{
+	background:linear-gradient(#999392, #211f1f, #4f4b4b);
+	margin-right:0px;
+}
+.desktop{
+	background:linear-gradient(#4f4b4b, #999392, #211f1f);
+}
+.tablet{
+	background:linear-gradient(#211f1f, #4f4b4b, #999392);
+}
+/*
+=========================
+figure - imagens
+=========================
+*/
+.container figure{
+	margin: 15px auto 0px auto; 
+	width:69.44444444444444%; /* 250px ÷ 360px = 0.6944444444444 x 100 = 69.44444444444444%*/
+}
+.container .desktop figure, .container .tablet figure, .container .mobile figure {
+	width:69.44444444444444%; /* 250px ÷ 360px = 0.6944444444444 x 100 = 69.44444444444444%*/
+}
+/*
+=========================
+formatação do texto
+=========================
+*/
+.container h3{
+	color:#fff;
+	font-size: 1.77777777778em; /* 32px ÷ 18px = 1.77777777778em */
+	font-weight: 300;
+	letter-spacing: -0.0625em; /* -2px ÷ 32px = 0.0625em */
+	margin-bottom: 30px;
+	text-shadow:none;
+}
+.container p{
+	background-color:#fff7f7;
+	float:left;
+	height:160px;
+	padding: 1.9444444444444445%; /* 7px ÷ 360px =  0.019444444444444445 x 100 =  1.9444444444444445%*/
+	position:absolute;
+	width-max:100%; /* 360px ÷ 360px = 1 x 100 = 100%*/
+	text-align:justify;
+	top:225px;
+}
+/*
+=========================
+formatação do botão
+=========================
+*/
+span.btn{
+	font-size: 1.1111111111em; /* 20px ÷ 18px = 1.1111111111em */
+	font-weight: 400;
+	letter-spacing: -0.1em; /* -2px ÷ 20px = -0.1em */
+	height:27px;
+	margin-top: 30px;
+	position:absolute;
+	right: 1px;
+	text-align:center;
+	text-shadow:none;
+	width:33.33333333333333%; /* 120px ÷ 360px = 0.3333333333333333 x 100 = 33.33333333333333%*/
+}
+span.btn a{
+	color:#fff;
+	padding: 2px 3.333333333333333%; /* 4px ÷ 120px = 0.3333333333333333 x 100 = 3.333333333333333%*/
+}
+.desktop span.btn a{
+	background-color:#000;
+}
+.tablet span.btn a{
+	background-color:#000;
+}
+.mobile span.btn a{
+	background-color:#000;
+}
+/*----------------------------------------------------------
+Seção FOOTER - Rodape com 2 colunas &lt;&lt;&lt;&lt;&lt;===================
+----------------------------------------------------------*/
+footer{
+	clear:both;
+	color:#fff;
+	height: 50px;
+	padding: 10px 0;
+	width:98%; /* 1200px ÷ 1200px = 1 x 100 = 100%*/
+}
+.copyright{
+	float:left;
+	margin-left: 2.5%; /* 30px ÷ 1200px = 0.025 x 100 = 2.5%*/
+}
+.desenvolvedor{
+	float:right;
+}
+.desenvolvedor figure{
+	width:100%;
+}
+
+/*----------------------------------------------------------
+Media Queries <<<<<=========================================
+----------------------------------------------------------*/
+/* 
+1200px – Desktops, notebooks com monitores widescreen
+***********************************************************/
+@@media screen and (max-width: 1200px){
+	.chamada h3 {
+		font-size: 1.66666666667em; /* 30px ÷ 18px */
+	}
+	.container h3{
+		font-size: 1.55555555556em; /*  28px ÷ 18px */
+	}
+	.container p{
+		height: 170px;
+		top:217px;
+	}
+}
+/* 
+960px – Tablets no formato paisagem e alguns monitores mais antigos
+***********************************************************/
+@media screen and (max-width:960px){
+	header h1 a{
+		width:37.5%; /* 360px ÷ 960px */
+	}
+	nav{
+		width:62.5%; /* 600px ÷ 960px */
+	}
+	h2{
+		font-size:2.6666666667em; /*48px ÷ 18px*/
+	}
+/*.chamada*/
+	.chamada {
+		height: 250px;
+	}
+		.chamada h3{
+			font-size:1.5em; /*27px ÷ 18px*/
+			width:88.54166666666667%; /*850px ÷ 960px*/
+		}
+/*.container*/
+	.container{
+		height: 425px;
+		padding:3.125%; /* 30px ÷ 960px */
+		width:93.75%; /* 100% (960px) - 6.25% de padding (direita e esquerda) = 92.1875%*/
+	}
+		.desktop, .tablet, .mobile{
+			width:31.45833333333333%; /* 302px ÷ 960px */
+		}
+		.container .desktop figure, .container .tablet figure, .container .mobile figure {
+			width:66.22516556291391%; /* 200px ÷ 302px %*/
+		}
+			.container img{
+					height:100px;
+				}
+		.container h3{
+			font-size: 1.6666666667em; /*30px ÷ 18px*/
+		}
+		.container p{
+			font-size: 0.8333333333em; /*15px ÷ 18px*/
+			top: 230px;
+		}
+}
+/* 
+768px – Tablets no formato retrato, como o iPad
+***********************************************************/
+@media screen and (max-width:768px){
+/*cores dos links e H2*/
+	h2, a, a:link, a:visited{
+	color:#FBCA61; 
+}
+	a:hover{
+		color:#F9AD0F;
+}
+/*header*/	
+	header {
+		height:195px;
+		text-align:center;
+	}
+		header h1 a{
+			background-position: 57% 0;
+			height: 126px;
+			margin-bottom: 15px;
+			width: 100%;
+		}
+		nav{
+			float:none;
+			text-align:center;
+			width: 100%;
+		}
+			nav a.ativo:link, nav a:hover{
+				color:#FBCA61; 
+			}
+/*.chamada*/
+	.chamada{
+		height:200px;
+	}
+		h2 {
+			font-size: 2.2222222222em; /*40px ÷ 18px*/
+		}
+		.chamada h3{
+			font-size:1.1111111111em; /*20px ÷ 18px*/
+		}
+/*.container*/
+	.container{
+		background-color:#FCDA92;
+		height: 380px;
+		padding:3.90625%; /* 30px ÷ 768px = 0.025 x 100 = 2.5%*/
+		width:92.1875%; /* 100% (768px) - 7.8125% de padding (direita e esquerda) = 92.1875%*/
+	}
+		.desktop, .tablet, .mobile{
+			width:31.25%; /* 240px ÷ 768px */
+		}
+		.container .desktop figure, .container .tablet figure, .container .mobile figure {
+			width:62.25%; /* 150px ÷ 240px %*/
+		}
+			.container img{
+					height:80px;
+				}
+		.container h3{
+			font-size: 1.6666666667em; /*30px ÷ 18px*/
+		}
+		.container p{
+			font-size: 0.7777777778em; /*14px ÷ 18px*/
+			height:140px;
+			line-height: 1.1428571428em; /*16px ÷ 14px*/
+			padding: 2.9166666667%; /* 7px ÷ 240px */
+			top: 215px;
+		}
+			span.btn{
+				font-size: 1.1111111111em; /* 20px ÷ 18px = 1.1111111111em */
+				letter-spacing: -0.1em; /* -2px ÷ 20px = -0.1em */
+				height:22px;
+				margin-top: 20px;
+				position:absolute;
+				width:50%;
+			}
+			span.btn a{
+				padding: 2px 3.333333333333333%; /* 4px ÷ 120px */
+			}
+}
+/* 
+480px – Smartphones no formato paisagem com tela pequena
+***********************************************************/
+@media screen and (max-width:480px){
+/*Geral*/
+*{
+	margin:0;
+	padding:0;
+}
+.center{
+	width:100%;
+}
+/*cores dos links e H2*/
+h2, a, a:link, a:visited{
+	color:#9C8CB9; 
+}
+a:hover{
+		color:#745F9A;
+}
+/*header*/	
+header {
+	border-bottom: none;
+	height:auto;
+	text-align:center;
+}
+	header h1 a{
+		background-position: 50% 0;
+		display:inherit;
+		height: 126px;
+		width: 100%;
+	}
+/*menu nav*/
+nav{
+	clear:both;
+}
+	nav li {
+		background:linear-gradient(#3b3a3d, #4f4b56, #878291);
+		display:block;
+	}
+		nav ul li a{
+			height: 40px;
+			margin: 0 auto;
+			padding-top:3px;
+			text-align:center;
+			text-shadow:none;
+			width: 100%;
+		}
+		nav li a:link{
+			color:#fff;
+			font-size:1.3888888889em; /*25px ÷ 18px*/
+		}
+		nav li a.ativo:link, nav li a:hover, nav li a:visited {
+			background-color:#0b0614; 
+			color:#fff;
+			text-decoration:none;
+		}
+		nav li a.ativo:hover, nav li a.ativo:visited{
+			 background:linear-gradient(#68605f, #47403e, #231917);
+		}
+/*.chamada*/
+.chamada{
+	height:130px;
+	margin-top:25px;
+}
+	h2 {
+		font-size: 1.4444444444em; /*26px ÷ 18px*/
+		letter-spacing:-0.0769230769230769em; /*2px ÷ 26px*/
+		margin-bottom: 15px;
+	}
+	.chamada h3{
+		font-size:0.7777777778em; /*14px ÷ 18px*/
+	}
+/*.container*/
+.container{	
+	background:linear-gradient(#3b3a3d, #4f4b56, #878291);
+	margin:0;
+	padding:0;
+	width:100%;
+}
+	.container .desktop, .container .tablet, .container .mobile{
+		float:none;
+		height:160px;
+		width:100%;
+	}
+	.container .desktop figure, .container .tablet figure, .container .mobile figure{
+		float:left;
+		height:160px;
+		margin:0;
+		padding:0;
+		width: 53.125%; /*255px ÷ 480px*/
+	}
+	.container h3{
+		float:left;
+		margin-top: 40px;
+		width: 46.875%; /*225px ÷ 480px*/
+	}	
+		.container .desktop figure img, .container .tablet figure img, .container .mobile figure img{
+			height:125px;
+			margin-top:15px;
+			width:86.2745098040%; /*220px ÷ 255px*/
+		}
+	.container p{
+		display:none; /*oculta o parágrafo*/
+	}
+/*footer*/
+	.copyright, .desenvolvedor{
+		float:none;
+		margin: 0;
+		padding: 0;
+		text-align:center;
+	}
+	.desenvolvedor figure{
+		width:inherit;
+	}
+}
+/* 
+320px – Smartphones no formato retrato com tela pequena
+***********************************************************/
+@media screen and (max-width:320px){
+/*cores dos links e H2*/
+h2, a, a:link, a:visited{
+	color:#79E1D5; 
+}
+a:hover{
+		color:#2FD0BC;
+}
+/*menu nav*/
+	nav li {
+		background-color: #79E1D5;
+	}
+		nav li a:link{
+		color:#555;
+		}
+		nav li a.ativo:link, nav li a:hover, nav li a:visited {
+			background-color:#2FD0BC; 
+			color:#fff;
+		}
+		nav li a.ativo:hover, nav li a.ativo:visited{
+			 background-color: #2FD0BC;
+		}
+/*.chamada*/
+.chamada{
+	height:130px;
+	margin-top:20px;
+}
+	h2 {
+		font-size: 1.1111111111em; /*20px ÷ 18px*/
+		margin-bottom: 15px;
+	}
+	.chamada h3{
+		font-size:0.7777777778em; /*14px ÷ 18px*/
+	}
+/*.container*/
+	.container .desktop, .container .tablet, .container .mobile{
+		float:none;
+		height:160px;
+		width:100%;
+	}
+	.container .desktop figure, .container .tablet figure, .container .mobile figure{
+		float:left;
+		width: 100%;
+	}
+	.container h3{
+		display:none;
+	}	
+	.container p{
+		display:none; /*oculta o parágrafo*/
+	}
+}
+
+
+
+
+
+
+/*----------------------------------------------------------
+CSS Reset - Normalize.css
+----------------------------------------------------------*/
+
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+
+body {
+	font-size: 1.125em; /* 18px ÷ 16px = 1.125em */
+  	margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+
+article,
+aside,
+details, /* 1 */
+figcaption,
+figure,
+footer,
+header,
+main, /* 2 */
+menu,
+nav,
+section,
+summary { /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+
+template, /* 1 */
+[hidden] {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+
+a {
+  background-color: transparent; /* 1 */
+  -webkit-text-decoration-skip: objects; /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+
+img {
+  border-style: none;
+   max-width: 100%;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+select,
+textarea {
+  font: inherit; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+
+optgroup {
+  font-weight: bold;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+html [type="button"], /* 1 */
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
