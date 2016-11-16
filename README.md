@@ -4,12 +4,12 @@
 
 Dupla: Giovanni Vicário, Matheus Mendes
 
-Tema do site: Star Wars
+Tema do site: Informar sobre o jogo Rainbow Six Siege.
 
-Público-alvo: Fãns de Star Wars
+Público-alvo: Fãns da Série de jogos Rainbow six siege.
 
-Funcionalidades:Vender Sabres de Luz, e explicar a respeito.
+Funcionalidades:Mostrar todos os itens , e explicar a respeito.
 
-Mapa do Site:(https://github.com/giovannigv/2L11/edit/master/mapasite.png)
+Mapa do Site
 
-Wireframe:Desktop(https://wireframe.cc/NkCuup)
+Wireframe:Desktop
