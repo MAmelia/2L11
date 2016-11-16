@@ -8,7 +8,7 @@ Tema do site:Descubra o Canadá
 
 Público-alvo: Interessados em aprender sobre o Canadá
 
-Funcionalidades:Visualização de fotos das províncias e cidades do Canadá.
+Funcionalidades:Visualização de fotos das províncias e territórios do Canadá.
 
 Mapa do Site:
 
