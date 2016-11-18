@@ -3,13 +3,15 @@
 #Projeto do Semestre
 
 Dupla:
+RONIFER SILVA: 31685102
+HENRIQUE CHAMIZO: 31600603
 
-Tema do site:
+Tema do site: CHIP FOOSE - DESENHISTA E PROJETISTA
 
-Público-alvo:
+Público-alvo: AMANTES DE CARROS
 
-Funcionalidades:
+Funcionalidades: INSTITUCIONAL
 
-Mapa do Site:
+Mapa do Site:HOME > PALHETA > HISTORIA > GALERIA > CONTATO
 
 Wireframe:
