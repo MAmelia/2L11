@@ -1,0 +1,113 @@
+body{
+    font-family:'Helvetica';
+}
+.inner{
+    width:70%;
+    margin:auto;
+}
+header{
+    border:1px solid #ccc;
+    border-radius:6px 6px 0 0;
+    background:#333;
+}
+header h1{
+    color:#fff;
+    text-align:left;
+    border-bottom:1px solid #ccc;
+    font-weight:100;
+    font-size: 2.8125em; /*45 / 16  */
+}
+.menu, .footer{
+    border:1px solid #ccc;
+    border-radius:0 0 6px 6px;
+    background:#eee;
+}
+.menu ul{list-style-type:none;padding:0;}
+.menu ul li{
+    display:inline;
+    margin: 0.9375em; /* 15px / 16 */
+}
+.menu ul li a{
+    color:#333;
+}
+table{
+    border:1px solid #ccc;
+    margin:auto auto auto auto;
+}
+table tr td{
+    border:1px solid #ccc;
+    text-align:center;
+    padding: 0.625em; /*10px;*/
+}
+section.body{
+    height:500px;
+}
+input, textarea{
+    display:block;
+    padding: 0.625em;
+    font-size:0.9375em;
+    font-weight:100;
+    max-width:100%;
+    border-radius:0.375em;
+    border:1px solid #ccc;
+    outline:none;
+}
+label{
+    margin-top:10px;
+    display:block;
+    font-weight:100;
+}
+input[type=submit]{
+    width:50%;
+    margin-top: 0.9375em;
+    background:#333;
+    color:#fff;
+}
+
+
+
+/* 
+1200px – Desktops, notebooks com monitores widescreen
+***********************************************************/
+@media screen and (max-width:1200px){
+    h1 {text-align: center;
+        font-family: fantasy}
+    p {text-align: center}
+    header { background-color: darkblue;}
+    .menu {background-color: whitesmoke;}
+    table {border-bottom-style: solid;}
+    .menu ul li a {
+    color:brown;
+        float: center;
+        display:flex;
+    }
+}
+/* 320px - celular */
+@media screen and (max-width:320px){
+    p {text-align: center}
+    h1 {text-align: center;
+        font-family: monospace}
+    body {background-color: azure;}
+    
+    header{
+    background-color: darkorchid;
+        text-align: justify;
+        font-size: 0.8125em;
+    }
+    .menu {float: center;
+                display: block}
+    .menu ul li a{
+    color:darkorange;
+        float: justify;
+        display: list-item;
+    }
+    
+        
+    table {border-bottom-style: dashed;
+        font-family: cursive;
+        
+        }
+    footer {font-family: cursive;
+            text-align: center;
+}
+}
