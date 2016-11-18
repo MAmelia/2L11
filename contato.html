@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<title>E-Commerce</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+</html>
+<body>
+	<header>
+		<div class="inner">
+			<h1>Tudo sobre e-commerces</h1>
+		</div>
+	</header>
+
+	<nav class="menu">
+		<div class="inner">
+			<ul>
+				<li><a href="./index.html">Inicio</a></li>
+				<li><a href="./sobre.html">Sobre</a></li>
+				<li><a href="./contato.html">Contato</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<section class="content">
+		<div class="inner">
+			<h1>Contato</h1>
+			
+			<section class="body">
+				<form method="post" action="enviar.php">
+					<label>Nome</label>
+					<input name="name" required placeholder="Seu Nome">
+					 
+					<label>Email</label>
+					<input name="email" required type="email" placeholder="Seu email">
+					 
+					<label>Mensagem</label>
+					<textarea name="message" required placeholder="O que deseja falar?"></textarea>
+					 
+					<input id="submit" name="submit" type="submit" value="Enviar">
+				</form>
+			</section>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="inner">
+			<p>Tudo sobre e-commerces - 2016.</p>
+			<p>Paulo Chen - TIA: 31613837</p>
+		</div>
+	</footer>
+</body>

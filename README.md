@@ -2,13 +2,13 @@
 
 #Projeto do Semestre
 
-Dupla:
+Dupla: Paulo Francisco Chen
 
-Tema do site:
+Tema do site: E-Commerce
 
-Público-alvo:
+Público-alvo: Estudantes e Adultos
 
-Funcionalidades:
+Funcionalidades: apresentar informações sobre o comercio eletronico.
 
 Mapa do Site:
 
