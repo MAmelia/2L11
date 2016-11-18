@@ -90,3 +90,17 @@ h2{
     -webkit-animation-duration: 1s;
     visibility: visible;
 }
+
+
+/*Footer */
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 4em;
+  background-color: rgba(45,45,45,1);
+  color:rgb(138, 142, 143);
+}
+
+footer > div > a{
+  color:#FFFFFF;
+}
