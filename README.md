@@ -12,4 +12,4 @@ Funcionalidades:Visualização de fotos das províncias e territórios do Canad�
 
 Mapa do Site:
 
-Wireframe:https://wireframe.cc/HPBusF
+Wireframe: Desktop: https://wireframe.cc/HPBusF; Mobile:https://wireframe.cc/cGKfj3
