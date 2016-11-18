@@ -47,3 +47,46 @@
 .img-13/*YT*/{
   background-image: url('http://media5.trover.com/T/5355ac34d6bdd476ee0000c5/fixedw_large_4x.jpg');
 }
+
+/*Content*/
+.header-content{
+  height: 300px;
+  background: white;
+  opacity: 0.65;
+  background: url('http://www.macleans.ca/wp-content/uploads/2015/09/CANADA-story.jpg') no-repeat left;
+}
+
+
+.text-right{
+  position:relative;
+  top:50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+
+h1{
+  font-family: 'Michroma', sans-serif;
+}
+
+
+h2{
+  font-family: 'Michroma', sans-serif;
+  font-size: 200% !important;
+  font-weight: bold;
+}
+
+.slideanim > .col-md-6{
+  height: 100vh;
+  background: rgba(0,0,0,.3);
+}
+
+.slideanim {visibility:hidden;}
+
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
