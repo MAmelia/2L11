@@ -14,3 +14,17 @@ $(function(){
         }
     });
   });
+
+ $(window).on('resize', function(){
+      var win = $(this);
+      if (win.width() < 770) { 
+
+      $('footer').addClass('mobile');
+
+      }
+    else
+    {
+        $('footer').removeClass('mobile');
+    }
+
+});
