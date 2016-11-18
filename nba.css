@@ -1,15 +1,17 @@
 
-#site{
+				#site{
                 margin-top: 5px;
                 margin-bottom: 35px;
                 margin-left: 35px;
                 margin-right: 35px;
                      }
+                     
                 nav {
                 margin: 0 auto;
-                width: 1260px
+                width: 100%;
+                float: center;
                  }
-
+                
                 ul {
                 list-style-type: none;
                 margin: 0;
@@ -28,10 +30,12 @@
                               }
 
                 li a {
-                display: block;
+                margin: 0 50px 0 50px;
+                font-size: 1.5em;
+                display:inline-block;
                 color: white;
                 text-align: center;
-                padding: 14px 16px;
+                padding: 1.166666666em 1.33333333em;
                 text-decoration: none;
                      }
 
@@ -293,9 +297,34 @@
 		text-align:justify;
 	}
 
-    .menutopo{
-        font-size: 30px;
+    
+
+    img {
+        max-width: 100%;
     }
-		
-		
-	
+
+    @media screen and (max-width: 500px){
+          h1{background: blue;
+          }  
+          #textoIni{
+              color: brown;
+        }
+        body{
+            background: orange;
+        }
+    }
+    
+    @media screen and (min-width: 1200px){
+          h1{background: green;
+          }  
+          #textoIni{
+              color: orangered;
+        }
+        body{
+            background: red;
+        }
+    }
+    
+
+ 
+    

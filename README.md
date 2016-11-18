@@ -2,9 +2,9 @@
 
 #Projeto do Semestre
 
-Dupla:
+Dupla: Matheus Alves Cassemiro e João Pedro Rodrigues
 
-Tema do site:
+Tema do site: Basquete
 
 Público-alvo:
 
