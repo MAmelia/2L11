@@ -2,14 +2,14 @@
 
 #Projeto do Semestre
 
-Dupla:
+Dupla: Victor da Silva França - Tia: 4163781-1  Turma: 2ºL
 
-Tema do site:
+Tema do site: Motos - KAWASAKI Z1000
 
-Público-alvo:
+Público-alvo: Motociclistas
 
-Funcionalidades:
+Funcionalidades: Nenhuma
 
 Mapa do Site:
 
-Wireframe:
+Wireframe: celular, tablet, desktop
