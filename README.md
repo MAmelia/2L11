@@ -8,7 +8,7 @@ Tema do site: Motos - KAWASAKI Z1000
 
 Público-alvo: Motociclistas
 
-Funcionalidades:
+Funcionalidades: Nenhuma
 
 Mapa do Site:
 
