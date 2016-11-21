@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Invest</title>
+        <style type="text/css">
+            body{
+                background-color:#808089;
+            }
+            
+            img{
+                max-width:100%;
+            }
+            
+            #logo{
+                width:100px;
+                height:auto;
+                max-width:100%;
+            }
+           /* Remove margins and padding from the list, and add a black background color */
+            ul.topnav {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            /* Float the list items side by side */
+            ul.topnav li {float: left;}
+
+            /* Style the links inside the list items */
+            ul.topnav li a {
+                display: inline-block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                transition: 0.3s;
+                font-size: 17px;
+            }
+
+            /* Change background color of links on hover */
+            ul.topnav li a:hover {background-color: #555;}
+
+            /* Hide the list item that contains the link that should open and close the topnav on small screens */
+            ul.topnav li.icon {display: none;}
+            
+            /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+            @media screen and (max-width:680px) {
+              ul.topnav li:not(:first-child) {display: none;}
+              ul.topnav li.icon {
+                float: right;
+                display: inline-block;
+              }
+            }
+
+            /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+            @media screen and (max-width:680px) {
+              ul.topnav.responsive {position: relative;}
+              ul.topnav.responsive li.icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+              }
+              
+              ul.topnav.responsive li {
+                float: none;
+                display: inline;
+              }
+              
+              ul.topnav.responsive li a {
+                display: block;
+                text-align: left;
+              }
+            }
+        </style>
+        <script type="text/javascript">
+            /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <img src="investor-512.png" id=logo></img>
+        </div>
+        <ul class="topnav" id="myTopnav">
+          <li><a href=index.html>Home</a></li>
+          <li><a href=investimentos.html>Investimentos</a></li>
+          <li><a href=contato.html>Contato</a></li>
+          <li class="icon">
+            <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+          </li>
+        </ul>
+        <br>
+        <div>
+            <p style="font-size:200%;">Introdução</p>
+            <p style="font-size:100%;">No mercado financeiro existem diversos tipos de investimentos. Alguns são voltados especialmente para que os empreendedores não deixem os recursos parados no caixa e, com isso, aproveitem os juros que esses investimentos geram.
+Conheça abaixo os principais investimentos e veja se algum deles combina com o seu negócio.​</p>
+        </div>
+        <hr>
+        <div>
+            <p style="font-size:200%;">Caderneta de poupança</p>
+            <p style="font-size:100%;">​Essa é a mais tradicional aplicação financeira. Segura, simples e com liquidez diária, você pode ter a certeza de que ela vai render todo mês. Atualmente, a remuneração da poupança para pessoa jurídica funciona assim:<br>
+            <br>
+            -	Enquanto a meta da Taxa SELIC for maior do que 8,5% a.a., a remuneração da poupança continua 1,5% ao trimestre + TR;<br><br>
+            -	Quando a Meta da Taxa SELIC for igual ou menor que 8,5% a.a., a remuneração da poupança será igual a 70% da meta da Taxa SELIC + TR.<br><br>
+            
+            Os rendimentos dos depósitos na poupança por pessoas jurídicas sujeitam-se à incidência do imposto de renda na fonte, conforme o tempo da aplicação:<br><br>
+            
+            -	Até 180 dias: 22,5%<br>
+            -	De 181 a 360 dias: 20%<br>
+            -	De 361 a 720 dias: 17,5%<br>
+            -	Acima de 720 dias: 15%<br>
+            <Br><br>
+            
+            Taxa SELIC: (*) SELIC (Sistema Especial de Liquidação e de Custódia): a taxa básica de juros, utilizada como referência no Brasil e estabelecida pelo Comitê de Política Monetária (COPOM).</p>
+        </div>
+        <hr>
+        <div>
+            <p style="font-size:200%;">CDBs</p>
+            <p style="font-size:100%;"><b>Certificados de Depósitos Bancários</b><br><br>
+
+            Os CDBs são utilizados pelos bancos para captar recursos. Quem investe faz uma espécie de empréstimo ao banco e, ao final do período combinado, recebe os juros por isso.<br><br>
+            
+            O dinheiro pode ser resgatado antes do período se o contrato garantir essa possibilidade. O mercado oferece diversas opções de CDBs e a rentabilidade varia de acordo com o volume de dinheiro aplicado e a modalidade contratada (pré-fixada ou pós-fixada).<br><br>
+            
+            Os CDBs podem ser:<br><BR>
+            
+           <b> -	Pré-fixados</b>: quando você sabe as taxas de remuneração do seu investimento no momento da aplicação;<br>
+           <b> -	Pós-fixados</b>: quando a remuneração dependo do indexador contratado. Ex: CDI (Certificado de Depósito Interfinanceiro) ou a TR (Taxa Referencial).<br><br>
+            
+            <b>Lembre-se</b>: há a cobrança de IOF - Imposto sobre Operações Financeiras - para resgates antes de 30 dias.​</p>
+        </div>
+        <hr>
+        <div>
+            <p style="font-size:200%;">RDBs</p>
+            <p style="font-size:100%;">​<b>Recibos de Depósitos Bancários</b><br><br>
+            
+
+            São títulos emitidos pelos bancos que têm características semelhantes às dos CDBs. A diferença é que os RDBs não podem ser negociados antes de seu vencimento e não podem ter transferência de titularidade.<br><br>
+            
+            Há a cobrança de IOF (Imposto sobre Operações Financeiras) para resgates antes de 30 dias.</p>
+        </div>
+        <hr>
+        <div>
+           <p style="font-size:200%;">Fundos de investimentos</p>
+           <p style="font-size:100%;">​É um tipo de aplicação financeira em que várias pessoas se reúnem para ter acesso a aplicações financeiras com custos menores. O objetivo é receber algum ganho financeiro, mas, neste caso, não há garantias de que isso aconteça.<br><br>
+            
+            Fundo de investimento é organizado como uma empresa e administrado por uma instituição financeira. Existem diferentes tipos de fundos de investimento que variam de acordo com o prazo ou o risco da aplicação.<br><br>
+            
+            O prazo para esse tipo de investimento pode ser curto, médio ou longo e, em todos os casos, pode haver cobrança de taxas de administração como IOF - Imposto sobre Operações de Crédito - e IR - Imposto de Renda.<br><br>
+            
+            <b>Dica</b>: leia sempre o prospecto e os fatores de risco do fundo de investimento em que pretende aplicar o dinheiro da sua empresa.</p>
+           
+        </div>
+    </body>
+</html>
