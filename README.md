@@ -2,14 +2,15 @@
 
 #Projeto do Semestre
 
-Dupla:
+Dupla: Giovanni Vicário, Matheus Mendes
 
-Tema do site:
+Tema do site: Informar sobre o jogo Rainbow Six Siege.
 
-Público-alvo:
+Público-alvo: Fãns da Série de jogos Rainbow six siege.
 
-Funcionalidades:
+Funcionalidades:Mostrar todos os itens , e explicar a respeito.
 
-Mapa do Site:
+Mapa do Site: Link nos arquivos
 
-Wireframe:
+Wireframe:Desktop(https://wireframe.cc/oqkrFO)
+          Mobile(https://wireframe.cc/zAuQo9)
