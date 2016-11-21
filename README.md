@@ -10,7 +10,7 @@ Público-alvo: Fãns da Série de jogos Rainbow six siege.
 
 Funcionalidades:Mostrar todos os itens , e explicar a respeito.
 
-Mapa do Site:(https://wireframe.cc/MUUf5I)
+Mapa do Site: Link nos arquivos
 
 Wireframe:Desktop(https://wireframe.cc/oqkrFO)
           Mobile(https://wireframe.cc/zAuQo9)
