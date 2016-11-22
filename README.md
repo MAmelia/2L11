@@ -10,7 +10,7 @@ Público-alvo: Pessoas que desejam obter um rendimento maior com seu dinheiro, m
 
 Funcionalidades: Informar as pessoas sobre aplicações financeiras e fazer seu dinheiro render mais
 
-Mapa do Site: (à fazer)
+Mapa do Site: Imagem mapa_do_site.png
 
 Wireframe: https://wireframe.cc/ACvqs7
            https://wireframe.cc/tptCKw
