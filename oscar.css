@@ -1,0 +1,332 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+body{ 
+    width: 100%;
+    max-width: 1200px;
+    background-image: url("vermelho.jpg"); 
+    font-size: 1em;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    margin: auto auto 0 ;
+    text-align: center;
+    background-color: black;
+    float: left;
+    
+}
+
+.contato{
+    width: 30%;
+    margin: 0 auto 20px;
+    color: black;
+}
+
+input, textarea {
+    color: black
+}
+
+.contato form{
+    width: 100%;
+    float: left;
+    color: black;
+}
+fieldset{
+    width: 100%;
+    margin: 0 auto;
+    padding: auto auto 20px;
+}
+
+.responsive{
+    width: 80%;
+    margin: 0 auto; 
+}
+
+#imagem{
+    height: 100px;
+    float: left;
+}
+
+.logo{
+    float: left;   
+}
+
+#imagem{
+    border-left: 0.0626em black solid;
+}
+
+.dropbtn {
+    width: 75%;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    font-size: 1em;
+    border: none;
+    height: 100px;
+    border-right: 0.0626em solid #333;
+    border-left: 0.0626em solid #333;
+}
+
+.dropdown {
+    float: right;
+    position: relative;
+    z-index: 99;
+    height: 100px;
+    width: 30%;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    width: 75%;
+    box-shadow: 0px 4px 16px 0px rgba(2,0,0,0.2);
+    list-style-type: none;
+    text-align:center;
+    margin: auto;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 1em 1em;
+    text-decoration: none;
+    display: block;
+    transition: all linear 0.3s;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: darkslategray;
+    transition: all linear 0.4s;
+}
+
+.banner{
+    background: url(plateia.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    box-shadow: inset #000 0px 0px 10px 0px;
+}
+
+
+
+.texto{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    line-height: 23px;
+    font-size: 0.9375em;
+}
+
+.texto h3{
+    text-align: center;
+}
+
+.dicaprio{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 12.5em;
+}
+
+.dicaprio img{
+    border-radius: 12.5em;
+    width: 80%
+}
+
+footer{
+    width: 100%;
+    background: black;
+    text-align: center;
+    padding: 10px 0;
+    float: left;    
+}
+.slides{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.slides h2{
+    font-size: 1.5em;
+}
+
+.slides h4{
+    font-size: 1em;    
+}
+
+.mySlides{
+    width: 60%;
+    margin: 0 auto;
+}
+
+h3{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mySlides img{
+    width: 40%;
+    float: left; 
+}
+
+
+.slides h2{
+    text-align: center;
+    margin: 1.25em 0 0.6250em;
+    
+}
+.slides h4{
+    text-align: center;
+    margin:  0 0 20px;
+    
+}
+.slideshow{
+    width: 100%;
+    float:left;
+    margin: 1.25em 0 ;
+    
+}
+
+.sinopse {
+    width: 58%;
+    text-align: justify;
+    float: right;
+}
+.botoes{
+    position: absolute;
+    width: 80%;
+    
+}
+.bBtn{
+    width: 15%;
+    float: left
+}
+
+.next{
+    width: 100%
+}
+
+.previous{
+    width: 100%
+}
+
+.fBtn{
+    width: 15%;
+    float: right
+}
+
+li{
+    margin: 0 0 0 0.9375em;
+}
+
+.titulo{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.titulo h1{
+    text-align: center;
+    margin: 1.25em 0 0.6250em;
+    
+}
+.titulo h4{
+    text-align: center;
+    margin:  0 0 1.25em;
+    
+}
+
+.enunciado{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+/* breakpoint 320px*/
+@media screen and (max-width: 320px){
+    .logo {
+        margin: 10 auto;
+    }
+    .dropdown{
+        margin: 10 auto;
+        width: 100%;
+        
+    }
+    .banner {
+        display: none;
+
+    }
+    
+     .dropbtn {
+    width: 75%;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    font-size: 1em;
+    border: none;
+    height: 100px;
+    border-right: 0.0626em solid #333;
+    border-left: 0.0626em solid #333;
+}
+    
+    .dicaprio{
+        display: none;
+    }
+    
+    .imgfilme{
+        display: none;
+    }
+    
+    .poster{
+        display: none;
+    }
+    
+    .resumo {
+        display: none;
+    }
+    
+    ul {
+        display: none;
+    }
+    
+    h3 {
+        font-size: 0.75em;
+    }
+    
+    h4 {
+        font-size: 0.75em;
+    }
+    
+    h5 {
+        font-size: 0.75em;
+    }
+    
+    h2 {
+        font-size: 0.75em;
+    }
+    
+    
+    .lista{
+        display: none
+    }
+    
+    .mySlides{
+        float: left;
+        alignment-baseline: center;
+    }
+}
+
+
